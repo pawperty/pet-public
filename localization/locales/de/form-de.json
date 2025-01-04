@@ -1,0 +1,27 @@
+{
+  "action":{
+    "done": "Erledigt",
+    "skip": "Überspringen",
+    "next": "Nächste",
+    "continue": "Weitermachen",
+    "ok": "OK",
+    "save": "Speichern",
+    "cancel": "Stornieren",
+    "show": "Zeigen",
+    "hide": "Verstecken",
+    "confirmation": "Bestätigung",
+    "select": "Wählen",
+    "edit": "Edit - DE",
+    "change": "Change - DE",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  }, 
+  "validation":{
+    "required": "Erforderlich",
+    "inputRequired": "Eingabe erforderlich",
+    "lengthMinimum2": "Die Eingabe muss mindestens 2 Zeichen lang sein",
+    "emailFormatInvalid": "Die Eingabe ist keine gültige E-Mail",
+    "passwordFormatInvalid": "Die Eingabe ist keine gültige E-Mail",
+    "phoneFormatInvalid": "Eingabe ist ein ungültiges Telefon"
+  }
+}

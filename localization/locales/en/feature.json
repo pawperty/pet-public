@@ -1,0 +1,393 @@
+{
+  "components": {
+    "sheets": {
+      "changeLocale": {
+        "title": "Change Language",
+        "description": "Select one of the languages below. Let us know if there is a language you would like to see added, translation issues, or recommendations. if there is a language you would like to see added, translation issues, or recommendations.",
+        "saveSuccessMsg": "Language has been changed."
+      },
+      "switchAccount": {
+        "title": "Switch Account",
+        "description": "You have access to more than one account. Select account below to switch.",
+        "saveSuccessMsg": "Account has been changed."
+      },
+      "selectPet": {
+        "title": "Select Pet",
+        "description": "Select one of the pets below. The list below could be limited based on what the pet is being selected for.",
+        "saveSuccessMsg": "Language has been changed."
+      },
+      "editUser": {
+        "title": "Edit",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "saveSuccessMsg": "Your user details have been saved."
+      },
+      "editPet": {
+        "titleEdit": "Edit",
+        "titleCreate": "Add",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "saveSuccessEditMsg": "Pet details have been saved.",
+        "saveSuccessCreateMsg": "Pet has been added."
+      },
+      "deletePet": {
+        "saveSuccessMsg": "Pet has been deleted."
+      },
+      "changePassword": {
+        "title": "Change Password",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "saveSuccessMsg": "Your password has been changed. Please Sign In with it.",
+        "errorCurrentPasswordIncorrectMsg": "Current Password entered is incorrect."
+      },
+      "editMapLocation": {
+        "titleEdit": "Edit Location",
+        "titleCreate": "Set Location",
+        "descriptionEdit": "Press location of map to set location and provide a name for it.",
+        "descriptionCreate": "Your location and area around it is central to this app and the pawperty community. Click on the map to set your location and give it a friendly name",
+        "saveSuccessMsg": "Location has been updated."
+      },
+      "manageProfilePhoto": {
+        "title": "Manage Photo",
+        "description": "The photo specified here is the primary image used for your pet on the site, lost/found report, and elsewhere. Please use an updated photo and ensure that it is able to be viewed as best possible.",
+        "takePhoto": "Take photo with device",
+        "selectPhoto": "Select photo on device",
+        "removePhoto": "Remove Photo",
+        "saveSuccessMsg": "Photo has been updated."
+      },
+      "livingStatus": {
+        "title": "Living Status",
+        "description": "Keeping living status up to date allows to appropriate features for your pets. If your pet has passed, we are so sorry for your loss and share your pain.",
+        "saveSuccessMsg": "Living Status has been updated."
+      },
+      "locationStatus": {
+        "title": "Location Status",
+        "description": "Let's leverage the community to help by getting the word out and working together."
+      },
+      "selectDate": {
+        "titleDate": "Select Date",
+        "titleDateTime": "Select Date & Time",
+        "descriptionDate": "Select date below and press 'Confirm' when ready.",
+        "descriptionDateTime": "Select date & time below and press 'Confirm' when ready."
+      },
+      "quickActions": {
+        "title": "Quick Actions",
+        "description": "Common tasks and actions frequently performed by users.",
+        "actionLostMyPet": {
+          "title": "Lost my pet",
+          "subTitle": "My pet is lost & need help"
+        },
+        "actionFoundPet": {
+          "title": "Found a pet",
+          "subTitle": "Found a pet & looking to return to family"
+        },
+        "actionFoundMyPet": {
+          "title": "Found my pet",
+          "subTitle": "My pet was found"
+        },
+        "actionAdoptPet": {
+          "title": "Adopt pet",
+          "subTitle": "Looking for a pet to adopt"
+        },
+        "actionSurrenderMyPet": {
+          "title": "Surrender pet",
+          "subTitle": "Can no longer care for my pet"
+        },
+        "actionMedicalService": {
+          "title": "Find Medical Services",
+          "subTitle": "Veterinarian, Hospital, specialty"
+        },
+        "actionService": {
+          "title": "Find Service",
+          "subTitle": "Grooming, walking, food & more"
+        }
+      },
+      "quickActionsPetContext": {
+        "title": "Quick Actions",
+        "description": "Common tasks and actions frequently performed by users.",
+        "actionLostMyPet": {
+          "title": "Report as Lost",
+          "subTitle": "{{petName}} is lost & need help"
+        },
+        "actionFoundMyPet": {
+          "title": "Report as Found",
+          "subTitle": "{{petName}} was found"
+        },
+        "actionSurrenderMyPet": {
+          "title": "Needs new Home",
+          "subTitle": "Can no longer care for {{petName}}"
+        },
+        "actionPassAway": {
+          "title": "Passed On",
+          "subTitle": "{{petName}} is no longer with us"
+        }
+      }
+    }
+  },
+
+  "flows": {
+    "manageLostReport": {
+      "title": "",
+      "description": "",
+      "steps": {
+        "where": {
+          "title": "Where & When was pet last seen?",
+          "titleTokenized": "Where & When was {{petName}} last seen?",
+          "subTitle": "Interact with map below and press the location where pet was lost."
+        },
+        "petsFoundNearby": {
+          "title": "Is {{petName}} one of these {{animalTypePlural}} found?",
+          "subTitle": "Found reports for {{animalTypePlural}} that have been found recently within {{distanceFromLocation}} {{distanceMeasurement}} from the location identified.",
+          "selectPetFromListInstructions": "Select report below to view more information or press next if not in the list.",
+          "mapNoPetMatchesUserLocatorMessage": "If you want to see if {{petName}} was located outside of this distance, cancel this Lost Report and use the main Locator feature first. The Locator has an interactive map that can be zoomed out further as well as filters to indicate status (Lost and/or Found) and pet type (Dog, Cat, etc.)."
+        },
+        "reportDetails": {
+          "title": "Report Details & Contact",
+          "subTitle": "Detailed description, additional pet details, and contact info that will be included in the report in addition to other managed pet details."
+        },
+        "review": {
+          "title": "Review",
+          "subTitle": "Review the information below and ensure it is accurate. If any of the pet details are not up to date, please update that first and then create the report. When review completed, press Publish to make it available to the community and notify others."
+        }
+      }
+    },
+    "manageFoundReport": {
+      "title": "",
+      "description": "",
+      "steps": {
+        "where": {
+          "title": "Where & When was pet found?",
+          "subTitle": "Interact with map below and press the location where pet was found."
+        },
+        "petsLostNearby": {
+          "title": "Is the {{animalType}} you found one of these reported lost?",
+          "subTitle": "Lost reports for {{animalTypePlural}} that have been found recently within {{distanceFromLocation}} {{distanceMeasurement}} from the location identified.",
+          "selectPetFromListInstructions": "Select report below to view more information or press next if not in the list.",
+          "mapNoPetMatchesUserLocatorMessage": "If you want to see if {{petName}} was located outside of this distance, cancel this Lost Report and use the main Locator feature first. The Locator has an interactive map that can be zoomed out further as well as filters to indicate status (Lost and/or Found) and pet type (Dog, Cat, etc.)."
+        },
+        "questionChecklist": {
+          "title": "Pet Matching Features",
+          "subTitle": "We can attempt to match by ID, pet name, phone number, QR code, and even by photo.",
+          "selectPetFromListInstructions": "Select {{animalType}} below to view more information of reconnect with {{petName}}. If not in list click next.",
+          "mapNoPetMatchesUserLocatorMessage": "If you want to see if {{petName}} was located outside of this distance, cancel this Lost Report and use the main Locator feature first. The Locator has an interactive map that can be zoomed out further as well as filters to indicate status (Lost and/or Found) and pet type (Dog, Cat, etc.)."
+        },
+        "reportDetails": {
+          "title": "Pet Details, Report Details, Contact",
+          "subTitle": "Add as much information as you can though most information is optional. Adding an image greatly increases odds of reuniting with family."
+        },
+        "review": {
+          "title": "Review",
+          "subTitle": "Review the information below and ensure it is accurate. If any of the pet details are not up to date, please update that first and then create the report. When review completed, press Publish to make it available to the community and notify others."
+        }
+      }
+    },
+    "manageCommonReport": {
+      "steps": {
+        "where": {
+          "title": "Where was the pet found?",
+          "subTitle": "Interact with map below and press to indicate where was found."
+        },
+        "reportDetails": {
+          "title": "Report Details - Pet & Contact",
+          "subTitle": "Add as much information as you can though most information is optional. Adding an image greatly increases odds of reuniting with family."
+        },
+        "review": {
+          "title": "Review",
+          "subTitle": "Review the information below and ensure it is accurate. If any of the pet details are not up to date, please update that first and then create the report. When review completed, press Publish to make it available to the community and notify others."
+        }
+      }
+    }
+  },
+
+  "user": {
+    "title": "User",
+    "tabDetails": {
+      "title": "User Details",
+      "sectionDetails": "Basics",
+      "sectionAuthentication": "Password & Sign In",
+      "multiFactorAuthentication": "Multi-Factor Authentication",
+      "signOut": "Sign Out"
+    },
+    "tabLocations": {
+      "title": "Location"
+    },
+    "tabPreferences": {
+      "title": "Preferences",
+      "sectionPreferences": "Preferences",
+      "sectionAuthentication": "Password & Sign In",
+      "multiFactorAuthentication": "Multi-Factor Authentication",
+      "signOut": "Sign Out"
+    },
+    "tabReminders": {
+      "title": "Reminders"
+    }
+  },
+  "account": {
+    "title": "Account",
+    "tabPet": {
+      "title": "Pets"
+    },
+    "tabDetails": {
+      "title": "Details",
+      "sectionDetails": "Basics",
+      "sectionPlan": "Plan",
+      "sectionBilling": "Billing",
+      "sectionUserAccess": "Users with access"
+    },
+    "tabMessages": {
+      "title": "Messages"
+    },
+    "tabReminders": {
+      "title": "Reminders"
+    },
+    "tabLocatorReport": {
+      "title": "Lost & Found"
+    }
+  },
+  "app": {
+    "title": "App"
+  },
+  "introSlider": {
+    "slideRegistration": {
+      "title": "Registration",
+      "subTitle": "It all starts with your pets getting registered. Pet is issued a QR code and email. This unlocks all the features of pawperty and the community."
+    },
+    "slideCommunity": {
+      "title": "Community",
+      "subTitle": "You and your registered pets automatically become a part of your local geographic community. Communities work together to help others with lost/found pets, adoptions, local services, and more."
+    },
+    "slideRecords": {
+      "title": "Records, Reminders, more",
+      "subTitle": "Keep track of your pets data like vaccinations, microchip info, registration, files, receipts. Set reminders for one-time or reoccurring medications, appointments, and more."
+    },
+    "slideLocator": {
+      "title": "Pet Lost & Found",
+      "subTitle": "We utilize all technology coupled with the local communities to help find lost pets or the home for found pets."
+    },
+    "slideAdoption": {
+      "title": "Adoption & Transfer",
+      "subTitle": "We help connect pets with possible homes by connecting everyone better by working together. Allow for searching pets for adoption as well as finding home for pets that can no longer be kept."
+    },
+    "slideServices": {
+      "title": "Services & Integration",
+      "subTitle": "Connect with local services that other pawperty users have used, rated, reviewed. Services include medical, sitting, food, care, pampering, and more.  "
+    }
+  },
+  "auth": {
+    "landing": {
+      "title": "Lets get Started",
+      "description": "Welcome to the pawperty app and community. This service exists to enhance you and your pet(s) journey. We use a local community approach to further enrich the experience while leveraging the common love for pets to benefit all members."
+    },
+    "choosePlan": {
+      "title": "Choose Plan",
+      "description": "Standard Plan gives the best experience while providing revenue for us to keep this service up and building the features users are asking for without overbearing advertising. Please consider supporting our shared interest.",
+      "planFree": "Free",
+      "planStandard": "Standard",
+      "price": "Price",
+      "yearlySubscriptionFormat": "${{cost}} / Year",
+      "featurePetCount": "Number of Pets",
+      "featureRegistration": "Registration",
+      "featureLocator": "Lost & Found",
+      "featureAdoption": "Adoption & Transfer",
+      "featureServices": "Services",
+      "featureRecordMgmt": "Record Management",
+      "featureReceiptMgmt": "Receipt Management",
+      "featureReminders": "Reminders",
+      "featureHistory": "History",
+      "featureImageGallery": "Image Gallery",
+      "featureMemoryTributes": "Memory Tributes"
+    },
+    "signUp": {
+      "title": "Sign Up",
+      "description": "Ensure you have access to the email provided below as Confirmation will be required in this process.",
+      "haveAccountPrompt": "Have an Account?",
+      "signUpWithSocial": "Or Sign Up With",
+      "termsAgreeStatement": "I have read & agree to:",
+      "signUpComplete": "Account created and Confirmation code sent to your email."
+    },
+    "signUpConfirmation": {
+      "title": "Confirmation",
+      "description": "A Confirmation code was sent to the email provided. Enter that confirmation code below to continue.",
+      "confirmationCode": "Confirmation code",
+      "resendConfirmationCode": "Resend Confirmation code",
+      "confirmationCodeSent": "Confirmation code sent to email",
+      "confirmationComplete": "Confirmation complete. Let's Sign In and get started."
+    },
+    "signIn": {
+      "title": "Sign In",
+      "dontHaveAccountPrompt": "Don't have an Account?",
+      "signInWithSocial": "Or Sign In With"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password?",
+      "description": "Enter the email associated to your account below. If the emails exists, you will receive a code and instructions required to reset your password.",
+      "forgotPasswordComplete": "Email sent if account exists. Check email for instructions."
+    },
+    "setPassword": {
+      "title": "Set Password",
+      "description": "An email was sent with a Password reset code to the email entered if it exists for an account. Enter it below to reset your password.",
+      "passwordResetCode": "Password reset code",
+      "didntReceiveCode": "Never received code?",
+      "enterEmailAgain": "Change Email",
+      "resendPasswordResetCode": "Resend Password reset code",
+      "passwordResetCodeSent": "Password Reset code sent to email",
+      "setPasswordComplete": "New password set. Let's Sign In and try it out."
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy"
+    },
+    "termsOfUse": {
+      "title": "Terms of use"
+    },
+    "endUserLicenseAgreement": {
+      "title": "End User License Agreement"
+    }
+  },
+  "profile": {
+    "editProfile": {
+      "title": "Edit Profile"
+    },
+    "messages": {
+      "title": "Messages"
+    },
+    "reminders": {
+      "title": "Reminders"
+    },
+    "preferences": {
+      "title": "Preferences"
+    },
+    "changePassword": {
+      "title": "Change Password"
+    },
+    "language": {
+      "title": "Language"
+    },
+    "darkMode": {
+      "title": "Dark Mode"
+    },
+    "help": {
+      "title": "Help Center"
+    },
+    "legalDocs": {
+      "title": "Privacy, Terms of Use..."
+    },
+    "checkForUpdates": {
+      "title": "Check For Updates"
+    },
+    "tellFriend": {
+      "title": "Tell a Friend"
+    },
+    "signOut": {
+      "title": "Sign Out"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password"
+    },
+    "register": {
+      "title": "Register"
+    },
+    "appWebsite": {
+      "title": "Website - Product, Us, more"
+    },
+    "appVersion": {
+      "title": "Version: {{version}}"
+    }
+  }
+}

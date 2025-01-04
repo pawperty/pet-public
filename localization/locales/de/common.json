@@ -1,0 +1,46 @@
+{
+  "vocab": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "password": "Password",
+    "passwordCurrent": "Current Password",
+    "passwordNew": "New Password",
+    "language": "Language",
+    "locationName": "Location Name",
+    "locationDescription": "Location description, crossroads, etc..",
+    "tag": "Tag",
+    "animalType": "Type of Pet",
+    "breed": "Breed",
+    "primary": "Primary",
+    "gender": "Gender",
+    "color": "Color",
+    "height": "Height",
+    "weight": "Weight",
+    "pounds": "pounds",
+    "inches": "inches",
+    "neutered": "Spayed / Neutered",
+    "dateOfBirth": "Date of Birth",
+    "dateOfDeath": "Date of Passing",
+    "age": "Age",
+    "mapNoPetMatchesWithinDistance": "There are no {{animalTypePlural}} reported {{reportStatus}} within {{distanceFromLocation}} {{distanceMeasurement}} of the location specified.",
+    "locatorReportLost": "Lost Report",
+    "locatorReportFound": "Found Report",
+    "noLocation": "No Location",
+    "possession": "In Possession?",
+    "livingStatus": "Living",
+    "locationStatus": "Location",
+    "adoptionStatus": "Home",
+    "no": "No",
+    "yes": "Yes"
+  },
+  "locale": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German"
+  },
+  "brand": {
+    "tagLine": "connecting pets, families, & communities"
+  }
+}

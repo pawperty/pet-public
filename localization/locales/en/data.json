@@ -1,0 +1,68 @@
+{
+  "animalTypes": {
+    "1": {
+      "note": "Dog",
+      "type": "Dog",
+      "typePlural": "Dogs",
+      "breeds": {
+        "1": {
+          "note": "Affenpinscher",
+          "name": "Affenpinscher"
+        },
+        "2": {
+          "note": "Afghan Hound",
+          "name": "Afghan Hound"
+        },
+        "3": {
+          "note": "Labrador Retriever",
+          "name": "Labrador Retriever"
+        }
+      }
+    },
+    "2": {
+      "note": "Cat",
+      "type": "Cat",
+      "typePlural": "Cats"
+    }
+  },
+  "genders": {
+    "m": {
+      "gender": "Male"
+    },
+    "f": {
+      "gender": "Female"
+    }
+  },
+  "bool": {
+    "true": {
+      "value": "Yes"
+    },
+    "false": {
+      "value": "No"
+    }
+  },
+  "reportType": {
+    "1": {
+      "type": "Lost"
+    },
+    "2": {
+      "type": "Found"
+    }
+  },
+  "locationStatus": {
+    "1": {
+      "type": "Known / Not Lost"
+    },
+    "2": {
+      "type": "Lost"
+    }
+  },
+  "adoptionStatus": {
+    "1": {
+      "type": "Has Home"
+    },
+    "2": {
+      "type": "Need Home"
+    }
+  }
+}

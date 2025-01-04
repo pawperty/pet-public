@@ -1,0 +1,13 @@
+{
+  "global":{
+  },
+  "locale":{
+    "en": "Englisch",
+    "es": "Spanisch",
+    "fr": "Französisch",
+    "de": "Deutsch"
+  },
+  "brand":{
+    "tagLine" : "Haustierregistrierung, Community und mehr"
+  }
+}

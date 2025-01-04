@@ -1,0 +1,61 @@
+{
+  "action": {
+    "done": "Done",
+    "skip": "Skip",
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "ok": "OK",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "show": "Show",
+    "hide": "Hide",
+    "confirmation": "Confirmation",
+    "confirm": "Confirm",
+    "select": "Select",
+    "edit": "Edit",
+    "change": "Change",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "publish": "Publish",
+    "search": "Search",
+    "close": "Close",
+    "send": "Send",
+    "selectDate": "Select date",
+    "selectDateTime": "Select Date & Time"
+  },
+  "confirmation": {
+    "exitLoseChangesMessage": "Are you sure you wish to exit and lose any changes?",
+    "exitNavigationClarifyMessage": "If trying to navigate to the previous step, use the buttons at bottom of screen.",
+    "exitContinue": "Exit",
+    "exitCancel": "Stay",
+    "deletePetConfirmationTitle": "Delete Pet",
+    "deletePetConfirmationMessage": "Deleting a pet will delete all related data, documents, images, messages, lost reports, etc.. Are you sure you wish to continue deleting?"
+  },
+  "validation": {
+    "required": "Required",
+    "inputRequired": "Input Required",
+    "lengthMinimum2": "Input must be at least 2 characters",
+    "lengthMinimum4": "Input must be at least 4 characters",
+    "emailFormatInvalid": "Input is not a valid email",
+    "passwordFormatInvalid": "Input is not a valid password",
+    "phoneFormatInvalid": "Input is not a valid phone",
+    "emailNotAvailable": "Email is not available to use",
+    "passwordNotMatch": "Password and Confirmation do not match",
+    "accountTermsAgreement": "Indication of Reading and Agreement is required.",
+    "signInFailed": "Incorrect email or password",
+    "signUpNotConfirmedYet": "The account Sign up has not been confirmed yet. Click option below to resend a new confirmation code to email.",
+    "codeMismatch": "Incorrect code. Please try again and use the Resend feature to have a new code sent to your email.",
+    "codeExpired": "The code provided has expired. Please use the Resend feature to have a new code sent to your email.",
+    "codeForgotPasswordMismatch": "Incorrect code or account doesn't exists for the email provided. Please verify the email is correct or try entering code again.",
+    "keyFormatInvalid": "Input is not a valid tag",
+    "keyNotAvailable": "Tag is not available to use",
+    "mapInteractiveLocationLostNotSet": "Click on the map to indicate last known location.",
+    "mapInteractiveLocationFoundNotSet": "Click on the map to indicate where found."
+  },
+  "error": {
+    "unknown": "An unknown error has occurred",
+    "limitExceededException": "Suspicious activity detected. Please wait 20 minutes and try again."
+  }
+}

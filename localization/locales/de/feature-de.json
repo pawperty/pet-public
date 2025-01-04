@@ -1,0 +1,194 @@
+{
+  "components":{
+    "sheets":{
+      "changeLocale": {
+        "title": "Sprache wählen",
+        "description": "Wir versuchen, so viele Nutzer und Haustiere wie möglich zu erreichen. Teilen Sie uns etwaige Übersetzungsprobleme oder Empfehlungen mit."
+      }
+    }
+  },
+  "introSlider":{
+    "slideRegistration": {
+      "title": "Anmeldung",
+      "subTitle": "Alles beginnt mit der Registrierung Ihrer Haustiere. Das Haustier erhält einen QR-Code und eine E-Mail. Dadurch werden alle Funktionen von Pawperty und der Community freigeschaltet."
+    },
+    "slideCommunity": {
+      "title": "Gemeinschaft",
+      "subTitle": "Sie und Ihre registrierten Haustiere werden automatisch Teil Ihrer lokalen geografischen Gemeinschaft. Gemeinschaften arbeiten zusammen, um anderen bei verlorenen/gefundenen Haustieren, Adoptionen, lokalen Diensten und mehr zu helfen."
+    },
+    "slideRecords": {
+      "title": "Aufzeichnungen, Erinnerungen, mehr",
+      "subTitle": "Behalten Sie den Überblick über die Daten Ihres Haustiers wie Impfungen, Mikrochip-Informationen, Registrierung, Dateien und Quittungen. Richten Sie Erinnerungen für einmalige oder wiederkehrende Medikamente, Termine und mehr ein."
+    },
+    "slideLocator": {
+      "title": "Haustier verloren und gefunden",
+      "subTitle": "Wir nutzen alle Technologien in Zusammenarbeit mit den örtlichen Gemeinden, um bei der Suche nach verlorenen Haustieren oder beim Finden eines Zuhauses für gefundene Haustiere zu helfen."
+    },
+    "slideAdoption": {
+      "title": "Annahme und Übertragung",
+      "subTitle": "Wir helfen dabei, Haustiere mit möglichen Zuhausen zu verbinden, indem wir alle durch Zusammenarbeit besser verbinden. Ermöglichen Sie die Suche nach Haustieren zur Adoption sowie die Suche nach einem Zuhause für Haustiere, die nicht mehr gehalten werden können."
+    },
+    "slideServices": {
+      "title": "Dienste und Integration",
+      "subTitle": "Verbinden Sie sich mit lokalen Diensten, die andere Pawperty-Benutzer genutzt, bewertet und bewertet haben. Zu den Dienstleistungen gehören medizinische Versorgung, Sitzen, Essen, Pflege, Verwöhnen und mehr."
+    }
+  },
+  "auth":{
+    "landing": {
+      "title": "Lass uns anfangen",
+      "description": "Willkommen in der Pawperty-App und Community. Dieser Service dient dazu, die Reise für Sie und Ihr(e) Haustier(e) zu verbessern. Wir nutzen einen lokalen Gemeinschaftsansatz, um das Erlebnis weiter zu bereichern und gleichzeitig die gemeinsame Liebe zu Haustieren zum Nutzen aller Mitglieder zu nutzen."
+    },
+    "choosePlan": {
+      "title": "Wählen Sie einen Plan",
+      "description": "Der Standardplan bietet das beste Erlebnis und sorgt gleichzeitig für Einnahmen, damit wir diesen Service aufrechterhalten und die von den Benutzern gewünschten Funktionen ohne aufdringliche Werbung entwickeln können. Bitte denken Sie darüber nach, unser gemeinsames Interesse zu unterstützen.",
+      "planFree": "Frei",
+      "planStandard": "Standard",
+      "price": "Preis",
+      "yearlySubscriptionFormat": "${{cost}} / Jahr",
+      "featurePetCount": "Anzahl der Haustiere",
+      "featureRegistration": "Anmeldung",
+      "featureLocator": "Verloren gefunden",
+      "featureAdoption": "Annahme und Übertragung",
+      "featureServices": "Dienstleistungen",
+      "featureRecordMgmt": "Aufnahmeverwaltung",
+      "featureReceiptMgmt": "Belegverwaltung",
+      "featureReminders": "Erinnerungen",
+      "featureHistory": "Geschichte",
+      "featureImageGallery": "Bildergalerie",
+      "featureMemoryTributes": "Erinnerungs-Tribute"
+    },
+    "signUp": {
+      "title": "Anmeldung",
+      "description": "Ensure you have access to the email provided below as confirmation will be required in this process.",
+      "haveAccountPrompt": "Ein Konto haben?",
+      "signUpWithSocial": "Oder melden Sie sich an mit",
+      "termsAgreeStatement": "Ich habe Folgendes gelesen und bin damit einverstanden:"
+    },
+    "signIn": {
+      "title": "Anmelden",
+      "dontHaveAccountPrompt": "Sie haben kein Konto?",
+      "signInWithSocial": "Oder melden Sie sich an mit"
+    },
+    "forgotPassword": {
+      "title": "Passwort vergessen?",
+      "description": "Geben Sie unten die mit Ihrem Konto verknüpfte E-Mail-Adresse ein. Wenn die E-Mails vorhanden sind, erhalten Sie einen Code und Anweisungen zum Zurücksetzen Ihres Passworts."
+    },
+    "setPassword": {
+      "title": "Passwort festlegen",
+      "description": "Es wurde eine E-Mail mit einem Code zum Zurücksetzen des Passworts an die eingegebene E-Mail-Adresse gesendet, sofern diese für ein Konto existiert. Geben Sie ihn unten ein, um Ihr Passwort zurückzusetzen.",
+      "passwordResetCode": "Code zum Zurücksetzen des Passworts",
+      "didntReceiveCode": "Code nicht erhalten?",
+      "resendCode": "Code erneut senden",
+      "newPassword": "Neues Kennwort",
+      "enterEmailAgain": "Geben Sie die E-Mail-Adresse erneut ein"
+    },
+    "privacyPolicy": {
+      "title": "Datenschutz-Bestimmungen"
+    },
+    "termsOfUse": {
+      "title": "Nutzungsbedingungen"
+    },
+    "endUserLicenseAgreement": {
+      "title": "Endbenutzer-Lizenzvereinbarung"
+    }
+  },
+  "account": {
+    "messages": {
+      "title": "Messages"
+    },
+    "reminders": {
+      "title": "Reminders"
+    },
+    "preferences": {
+      "title": "Preferences"
+    },
+    "changePassword": {
+      "title": "Change Password"
+    },
+    "language": {
+      "title": "Language"
+    },
+    "darkMode": {
+      "title": "Dark Mode"
+    },
+    "help": {
+      "title": "Help Center"
+    },
+    "legalDocs": {
+      "title": "Privacy, Terms of Use..."
+    },
+    "checkForUpdates": {
+      "title": "Check For Updates"
+    },
+    "tellFriend": {
+      "title": "Tell a Friend"
+    },
+    "signOut": {
+      "title": "Sign Out"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password"
+    },
+    "register": {
+      "title": "Register"
+    },
+    "appWebsite": {
+      "title": "Website - Product, Us, more"
+    },
+    "appVersion": {
+      "title": "Version: {{version}}"
+    }
+  },
+  "profile":{
+    "editProfile": {
+      "title": "Edit Profile"
+    },
+    "messages": {
+      "title": "Messages"
+    },
+    "reminders": {
+      "title": "Reminders"
+    },
+    "preferences": {
+      "title": "Preferences"
+    },
+    "changePassword": {
+      "title": "Change Password"
+    },
+    "language": {
+      "title": "Language"
+    },
+    "darkMode": {
+      "title": "Dark Mode"
+    },
+    "help": {
+      "title": "Help Center"
+    },
+    "legalDocs": {
+      "title": "Privacy, Terms of Use..."
+    },
+    "checkForUpdates": {
+      "title": "Check For Updates"
+    },
+    "tellFriend": {
+      "title": "Tell a Friend"
+    },
+    "signOut": {
+      "title": "Sign Out"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password"
+    },
+    "register": {
+      "title": "Register"
+    },
+    "appWebsite": {
+      "title": "Website - Product, Us, more"
+    },
+    "appVersion": {
+      "title": "Version: {{version}}"
+    }
+  }
+  
+}
+  
